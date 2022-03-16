@@ -1,0 +1,36 @@
+body{
+    background-color: greenyellow;
+}
+.caja{
+    width: 930px;
+    height: 230px;
+    border-radius: 5px;
+    background: green;
+    display: inline-block;
+    animation-name: caja1;
+   animation-duration: 3s;
+  
+ 
+}
+h3{
+    font-size: 30px;
+    color: white;
+    margin-left: 120px;
+}
+@keyframes caja1{
+ 0%{
+        background-color: palegreen; 
+    }
+    25%{
+        background-color:palevioletred;
+    }
+    50%{
+        background-color:#000;
+    }
+    75%{
+        background-color:rgb(136, 19, 19);
+    }
+    100%{
+        background-color: palegreen;
+    }
+}
